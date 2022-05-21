@@ -10,7 +10,7 @@ char Incoming_value = 0; // Variable for storing Incoming_value
 void setup()
 {
   Serial.begin(9600);  // Sets the data rate in bits per second (baud) for serial data transmission
-  pinMode(LED_BUILTIN, OUTPUT); // Sets digital pin 13 as output pin
+  pinMode(12, OUTPUT); // Sets digital pin 13 as output pin
 }
 void loop()
 {
@@ -20,8 +20,8 @@ void loop()
     Serial.print(Incoming_value);   // Print Value of Incoming_value in Serial monitor
     Serial.print("\n");             // New line
     if (Incoming_value == 'E')      // Checks whether value of Incoming_value is equal to 1
-      digitalWrite(13, HIGH);       // If value is 1 then LED turns ON
+      digitalWrite(12, HIGH);       // If value is 1 then LED turns ON
     else if (Incoming_value == 'D') // Checks whether value of Incoming_value is equal to 0
-      digitalWrite(13, LOW);        // If value is 0 then LED turns OFF
+      digitalWrite(12, LOW);        // If value is 0 then LED turns OFF
   }
 }
