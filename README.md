@@ -1,6 +1,8 @@
 # shocking
 it's shockingly moral (Jamhacks 6)
 
+we didn't win because of 'political reasons'... apparently its not moral to taze people :(
+
 https://www.youtube.com/watch?v=93MGAAmkYUM
 
 # About the Project
